@@ -24,5 +24,7 @@ assets/icon.png アプリアイコン（Carrel の assets/icon.png のコピー�
 
 ## 公開
 
-GitHub に公開リポジトリ（例: `kazuwind/carrel-website`）を作って push し、
-Settings → Pages → Branch: `main` / `/(root)` で公開する。独自ドメインを使う場合は CNAME を追加して DNS を設定する。
+公開先: https://carrel.bootstrappworks.com/ （リポジトリ `kazuwind/carrel-website`、DNS は bootstrappworks.com に carrel → kazuwind.github.io. の CNAME）。
+GitHub に push すると
+Settings → Pages（Branch: `main` / `/(root)`、独自ドメインは CNAME ファイル）で自動公開される。
+bootstrappworks.com は Search Console で所有権確認済みのため、Google OAuth のブランディング確認に使える。
